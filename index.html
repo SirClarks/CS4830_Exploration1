@@ -9,17 +9,58 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="content">
-        <div class="content-about">
+    <div class="container">
+        <div class="content about">
             <h1>Exploration1</h1>
             <p>The documentation for this assignment can be found in my GitHub repository in the Readme.md here: <a href="https://github.com/SirClarks/CS4830_Exploration1"> CS4830_Exploration1 Repo</a> </p>
         </div>
         
-        <div class="content-grid">
-            <h1>Bootstrap Grid</h1>
-            <p>In this section I will explore the Bootstrap grid component. I have used this a bit before, mostly copy-and-pasting the template code, but for this assignment I have really chosen to get in there, and learn all I can about this component.</p>
+        <div class="content grid">
+            <h2>Bootstrap Grid system</h2>
+            <p>In this section I will explore the Bootstrap grid component, which is one of the main advertised components of boostrap</p>
+            
+            <h3>Basic Example</h3>
+            <p>Simple 1 row with 3 column layout. Filled with Space Ipsum. These will stack when in Mobile View</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="ex1">What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="ex1">Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="ex1">Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Responsive Columns + Nested columns</h3>
+            <p>This grid layout uses nested columns within other columns to resize properly between multiple sizes. As well as make a design with a row of 2 columns ontop of a row of 3 columns, which a pyramid design looks pleasing to the eye</p>
+            <div class="row">
+                <div class="col-sm-12 ex4">
+                    <h4>Testing Header Here</h4>
+                    <div class="col-sm-6 ex4">
+                        <h4>Another header in here</h4>
+                        <img src="http://placehold.it/250x250">
+                        <p>The sky is the limit only for those who aren't afraid to fly!</p>
+                    </div>
+                    <div class="col-sm-6 ex4">
+                        <h4>Another header in here</h4>
+                        <img src="http://placehold.it/250x250">
+                        <p>Problems look mighty small from 150 miles up.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
         </div>
-    </div> <!--Main content div-->
+            
+            
+            
+            
+            
+            
+        </div>
+    </div> <!--Main container div-->
  
     <!--Bootstrap scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
