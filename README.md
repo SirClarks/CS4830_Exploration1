@@ -15,9 +15,9 @@
 
 For my *Exploration 1* I wanted to delve deeper into using Bootstrap as a frontend design tool. Specifically, I wanted to explore several different Bootstrap components: 
 
-- The grid / row-column component.
+- The grid system.
 - The tooltip component.
-- Collapse component.
+- The collapse component.
 
 Also, I wanted to further explore using GitHub as a resource, by hosting all of my files as well as writing out the assignment documentation using the `README.md`.
 
