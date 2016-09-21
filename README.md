@@ -25,6 +25,27 @@ Also, I wanted to further explore using GitHub as a resource, by hosting all of 
 
 ## Documentation 
 
+- Grid System Component:
+http://v4-alpha.getbootstrap.com/layout/grid/
+
+- Issue: img-responsive changed to img-fluid in Bootstrap 4:
+http://v4-alpha.getbootstrap.com/content/images/
+
+- Bootstrap Collapse Component:
+http://v4-alpha.getbootstrap.com/components/collapse/
+
+- Bootstrap v4 buttons:
+http://v4-alpha.getbootstrap.com/components/buttons/
+
+- Bootstrap v4 Forms:
+http://v4-alpha.getbootstrap.com/components/forms/
+
+- Bootstrap v4 Tooltip:
+http://v4-alpha.getbootstrap.com/components/tooltips/
+
+- Issue: Bootstrap Tooltip reference not so easy to understand, went to w3 schools instead:
+http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tooltip&stacked=h
+
 <p align="right"><a href="#top">:arrow_up:</a></p>
 
 ## Code 
