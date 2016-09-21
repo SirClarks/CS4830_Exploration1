@@ -50,6 +50,12 @@ http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tooltip&stack
 
 ## Code 
 
+
+I decided to create a single web page for my Exploration 1. The code samples are in orderly format and can be found at:  https://aws.humblepixel.com
+
+For version control, I used the Github desktop app in combination with the web version of this as well. You can find the `index.html` file here: https://github.com/SirClarks/CS4830_Exploration1/blob/master/index.html
+
+
 <p align="right"><a href="#top">:arrow_up:</a></p>
 
 ## Recap 
