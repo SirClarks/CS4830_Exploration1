@@ -60,29 +60,29 @@ For version control, I used the Github desktop app in combination with the web v
 
 ## Recap 
 
-####Introduction####
+###Introduction###
 
 This was not my first time using Bootstrap; however, this was the first time I took an in-depth look into a few of the components that Bootstrap offers instead of only using it for the scalability feature. I also chose to mess around with the Bootstrap 4 alpha, just as an added bonus to the experience. 
 
 Setting up Bootstrap was simple and easy. I chose to use their CDN services for the first time, instead of downloading all of the CSS and JS files locally. I figured for something simple like this, I wouldn't need to mess around with the local files. 
 
-####Grid System####
+###Grid System###
 
 Starting with the Bootstrap grid system. It turned out to be extremely simple. The grid simply relies on a row element which can consist of multiple column elements, which must add up to 12. So you could have 12 tiny identical columns with the class col-md-1 in a single row. You could also go for 3 same sized columns with the class col-md-4, which 3*4=12. This was relatively simple to understand, and I can imagine how web designers could benefit from a simple system like this. 
 
 I also explored a responsive column design, one which would have multiple column settings for different display sizes. For example, on a small screen, the row would have two columns using the col-sm-6 class, or instead, on a larger display, it could show 4 columns with the class col-lg-3 in the same row. One could even add the -md class to try to accommodate for medium displays such as tablets. 
 
-####Collpase Component####
+###Collpase Component###
 
 Next, I focused on exploring the collapse component of Bootstrap v4. I really wanted to take a look at this, because it's something that most modern web sites/apps have to have in order to send along that "modern responsive feel" look. Once again, I was earnestly surprised how easy Bootstrap made it to implement the component:
 
 Using a simple link or button, one would then need to add the data-toggle="collapse" and add an href by ID to the div which holds the content waiting to collapse. There are also a few classes for formatting such as "aria-expanded". Finally, the div which is meant to collapse out just needs to have the bootstrap class="collapse" and the ID which was referenced by the href on the link or button. All of this was really easy to setup, and one could even fit entire forms under a collapse button very easily using the same method. Though I found out that the form must be wrapped in a div, which is something common anyway, in order to collapse out.   
 
-####Tooltip Component####
+###Tooltip Component###
 
 Finally, I took a quick look at the Tooltip component for Bootstrap, which isn't an important feature of a web page/app; however, I felt that I wanted to explore it, just because I enjoy the occasional tooltip providing further information on a certain element. It was really easy to setup, with the help of w3schools, just because the Bootstrap documentation got a bit confusing on this. The basic example I provided was easy to follow, and can't be much different than every other use of the tooltip component. Once again though Bootstrap made it easy and simple to get up and going without having to use another JS plugin. 
 
-####Final Remarks####
+###Final Remarks###
 
 Overall I was extremely satisfied with exploring Bootstrap 4. I have really only previously used Bootstrap 3 for the scalability on multiple devices, but never really took a look at the documentation in detail. It was enjoyable to read through the few components which I explored, and I hope to come back and look at many more (especially after finding out they are so simple to implement). My favorite of the 3 components I looked at was the collapse, which was simple, but immediately increased the face value of the design making it look more modern and clean. I hope to implement this on a website of my own soon. The tooltip was an interesting find, but I can't see myself using it too much, other than maybe rarely to describe an element on a page. Finally, the Grid system, which Bootstrap offers, is very unique and I can see how it could become complex especially when dealing with different sized elements; therefore, I hope to also explore this and more components in the near future. 
 
