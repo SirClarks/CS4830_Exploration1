@@ -16,7 +16,7 @@
         </div>
         
         <div class="content grid">
-            <h2>Bootstrap Grid system</h2>
+            <h2>Bootstrap Grid System</h2>
             <p>In this section I will explore the Bootstrap grid component, which is one of the main advertised components of boostrap</p>
             
             <h3>Basic Example</h3>
@@ -35,36 +35,104 @@
             <hr>
             <h3>Responsive Columns + Nested columns</h3>
             <p>This grid layout uses nested columns within other columns to resize properly between multiple sizes. As well as make a design with a row of 2 columns ontop of a row of 3 columns, which a pyramid design looks pleasing to the eye</p>
-            <div class="row">
-                <div class="col-sm-12 ex4">
-                    <h4>Testing Header Here</h4>
-                    <div class="col-sm-6 ex4">
-                        <h4>Another header in here</h4>
-                        <img src="http://placehold.it/250x250">
-                        <p>The sky is the limit only for those who aren't afraid to fly!</p>
+            <div class="expyramid">
+                <div class="row">
+                    <div class="col-sm-12 ex4">
+                        <h4>Testing Header Here</h4>
+                        <div class="col-sm-6 ex4">
+                            <h4>Another header in here</h4>
+                            <p>The sky is the limit only for those who aren't afraid to fly!</p>
+                        </div>
+                        <div class="col-sm-6 ex4">
+                            <h4>Another header in here</h4>
+                            <p>Problems look mighty small from 150 miles up.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 ex4">
-                        <h4>Another header in here</h4>
-                        <img src="http://placehold.it/250x250">
-                        <p>Problems look mighty small from 150 miles up.</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 ex4">
+                        <div class="col-sm-4 ex4">
+                            <h4>Another header in here</h4>
+                            <p>The sky is the limit only for those who aren't afraid to fly!</p>
+                        </div>
+                        <div class="col-sm-4 ex4">
+                            <h4>Another header in here</h4>
+                            <p>Problems look mighty small from 150 miles up.</p>
+                        </div>
+                        <div class="col-sm-4 ex4">
+                            <div>
+                            <h4>Another header in here</h4>
+                            <p>Problems look mighty small from 150 miles up.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <hr>
+        </div>
+        
+        <div class="collapsebootstrap">
+            <h2>Collapse Component</h2>
+            <p>I chose to explore the collapse component, because it seems extremely simple to implement for a designer who doesn't have much knowledge of Java script (So me pretty much).</p>
+            <h3>Basic Example</h3>
+            <div class="basiccollapse">
+                <p>
+                    <a data-toggle="collapse" href="#collapseText" aria-expanded="false" aria-controls="collapseText">Click Here To Collapse</a>
+                </p>
+                <div class="collapse" id="collapseText">
+                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Fancy Example</h3>
+            <p>The form was taken from:  <a href="http://v4-alpha.getbootstrap.com/components/forms/"> v4 Bootstrap Form Example</a></p>
+            <div class="fancy">
+                <p>
+                    <a class="btn btn-outline-info" data-toggle="collapse" href="#collapseText2" aria-expanded="false" aria-controls="collapseText2">Click here to register</a>
+                </p>
+                <!--Bootstrap Form Example-->
+                <div class="collapse" id="collapseText2">
+                    <form class=#>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <!--Bootstrap Form Example-->
+                </div>
+            </div>
+            <hr>
+        </div>
+        
+        <div class="tooltipcomponent">
+            <h2>Tooltip Component</h2>
+            <p>The tooltip component or plugin in Bootstrap is not enabled by default (for performance issues); hence, it must be intialized by a developer before hand.</p>
+            <div class="basictooltip">
+                <h3>Basic Example</h3>
+                <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+            </div> 
+        
             
             
         </div>
             
-            
-            
-            
-            
-            
-        </div>
-    </div> <!--Main container div-->
+    </div>
  
     <!--Bootstrap scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <!--Needed for the tooltip plugin-->
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
   </body>
 </html>
