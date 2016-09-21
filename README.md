@@ -1,4 +1,4 @@
-# CS4830 Exploration 1 - Bootstrap
+# CS4830 Exploration 1 - Bootstrap 4
 
 <p align="center">
 <b><a href="#overview">Overview</a></b>
